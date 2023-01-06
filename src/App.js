@@ -1,22 +1,18 @@
 import React from 'react';
-import { Routes, Route } from 'react-router-dom';
-import Navbar from './components/Navbar';
-// import NotFound from './components/NotFound';
-// import Missions from './pages/Missions';
-// import Profile from './pages/Profile';
-// import Rockets from './pages/Rockets';
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
+import Navbar from './pages/Navbar';
+import HomePage from './components/HomePage';
+import DetailPage from './components/DetailsPage';
 
 function App() {
   return (
-    <>
+    <Router>
       <Navbar />
       <Routes>
-        <Route path="/" element={<Rockets />} />
-        <Route path="/Missions" element={<Missions />} />
-        <Route path="/MyProfile" element={<Profile />} />
-        <Route path="*" element={<NotFound />} />
+        <Route exact path="/" element={<HomePage />} />
+        <Route path="/country/:name" element={<DetailPage />} />
       </Routes>
-    </>
+    </Router>
   );
 }
 
