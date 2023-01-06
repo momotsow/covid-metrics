@@ -8,7 +8,7 @@ body {
 
 .header {
   padding: 7px;
-  background: #ec4e8a;
+  background: #b2beb5;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -20,13 +20,13 @@ body {
 }
 
 .navItems {
-  background-color: #ec4e8a;
+  background-color: #b2beb5;
   padding: 24px;
   color: #e6e6f6;
 }
 
 .navItems1 {
-  background-color: #ec4e8a;
+  background-color: #b2beb5;
   padding: 24px;
   color: #e6e6f6;
 }
@@ -49,7 +49,7 @@ h1 {
 .pages {
   padding-top: 15px;
   padding-bottom: 15px;
-  background-color: #cd4275;
+  background-color: #b2beb5;
 }
 
 .area {
@@ -62,7 +62,7 @@ h1 {
   align-items: center;
   gap: 10px;
   padding: 10px;
-  background-color: #cd4275;
+  background-color: #59cbe8;
 }
 
 .list-country {
@@ -78,7 +78,7 @@ a {
 
 .list-country a:nth-child(4n),
 .list-country a:nth-child(4n + 1) {
-  background-color: #e84986;
+  background-color: #59cbe8;
   text-align: end;
 }
 
@@ -120,7 +120,7 @@ a {
 }
 
 .container-fluid {
-  background-color: #cf4277;
+  background-color: #59cbe8;
   color: #fff;
 }
 

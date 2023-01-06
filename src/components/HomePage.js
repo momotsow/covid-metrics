@@ -16,7 +16,7 @@ const HomePage = () => {
     }
   }, [countryStore.length, dispatch]);
 
-  let continCovid = countryStore.filter((item) => item.continent === 'Europe');
+  let continCovid = countryStore.filter((item) => item.continent === 'Africa');
   const location = useLocation();
   const query = new URLSearchParams(location.search);
   const search = query.get('search') || '';
@@ -31,7 +31,7 @@ const HomePage = () => {
 
   return (
     <div className="pages">
-      <h3 className="area">Europe</h3>
+      <h3 className="area">Africa</h3>
       <form className="form">
         <div className="search-bar">
           <input
