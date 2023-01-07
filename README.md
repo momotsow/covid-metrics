@@ -1,35 +1,11 @@
 <a name="readme-top"></a>
 
-<!--
-HOW TO USE:
-This is an example of how you may give instructions on setting up your project locally.
-
-Modify this file to match your project and remove sections that don't apply.
-
-REQUIRED SECTIONS:
-- Table of Contents
-- About the Project
-  - Built With
-  - Live Demo
-- Getting Started
-- Authors
-- Future Features
-- Contributing
-- Show your support
-- Acknowledgements
-- License
-
-After you're finished please remove all the comments and instructions!
--->
-
 <div align="center">
 
-
-<img src="murple_logo.png" alt="logo" width="140"  height="auto" />
-
+  <img src="murple_logo.png" alt="logo" width="140"  height="auto" />
   <br/>
 
-  <h3><b>Metrics Webapp</b></h3>
+  <h3><b>Microverse README Template</b></h3>
 
 </div>
 
@@ -38,17 +14,19 @@ After you're finished please remove all the comments and instructions!
 # 📗 Table of Contents
 
 - [📗 Table of Contents](#-table-of-contents)
-- [📖 \[Covid Statistics\] ](#-covid-statistics-)
+- [📖 Covid Metrics ](#-covid-metrics-)
   - [🛠 Built With ](#-built-with-)
     - [Tech Stack ](#tech-stack-)
     - [Key Features ](#key-features-)
+  - [🚀 Live Demo ](#-live-demo-)
+  - [🚀 Project presentation ](#-project-presentation-)
   - [💻 Getting Started ](#-getting-started-)
     - [Prerequisites](#prerequisites)
     - [Setup](#setup)
     - [Install](#install)
     - [Usage](#usage)
     - [Run tests](#run-tests)
-  - [👥 Author :  ](#-author---)
+  - [👥 Author ](#-author-)
   - [🔭 Future Features ](#-future-features-)
   - [🤝 Contributing ](#-contributing-)
   - [⭐️ Show your support ](#️-show-your-support-)
@@ -57,40 +35,47 @@ After you're finished please remove all the comments and instructions!
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 [Covid Statistics] <a name="about-project"></a>
+# 📖 Covid Metrics <a name="about-project"></a>
 
-> This app use an external API of the COVID infection cases for different countries. With a search bar to filter using the total number of cases depending on the past date and also filter using the specific country input or search button. Built with react, redux and CSS.
-👌 
-
-
+**Covid Metrics** is a functional mobile web application that uses [CoinStats API](https://disease.sh/v3/covid-19/countries) to obtain and display a list of countries and their covid cases. It is developed with react and redux.
 
 ## 🛠 Built With <a name="built-with"></a>
 
 ### Tech Stack <a name="tech-stack"></a>
 
-> Describe the tech stack and include only the relevant sections that apply to your project.
-
 <details>
   <summary>Client</summary>
   <ul>
     <li><a href="https://reactjs.org/">React.js</a></li>
+    <li><a href="https://redux.js.org/">Redux</a></li>
   </ul>
 </details>
 
+<!-- Features -->
+
 ### Key Features <a name="key-features"></a>
 
-
-- [x] We test this app using library from react or may be use jest to test it👌💯.
-
-
-
-
+- **Home Page showing a list of all covid cases per country**
+- **Information of each country is displayed by clicking on the card on home page**
+- **User can search any country from the list**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
+<!-- LIVE DEMO -->
+
+## 🚀 Live Demo <a name="live-demo"></a>
+
+- [Live Demo](https://beamish-cendol-93dd1e.netlify.app/)
+
+## 🚀 Project presentation <a name="presentation"></a>
+
+https://www.loom.com/share/def77c5f53af4114a4a78c81023426c8
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- GETTING STARTED -->
+
 ## 💻 Getting Started <a name="getting-started"></a>
-
-
 
 To get a local copy up and running, follow these steps.
 
@@ -98,48 +83,44 @@ To get a local copy up and running, follow these steps.
 
 In order to run this project you need:
 
+- node.js
+- git
 
 ### Setup
 
 Clone this repository to your desired folder:
 
+- Open your terminal
 
-```sh
-  cd my-folder
-  git clone https://github.com/momotsow/covid-metrics.git
-```
+- Navigate to the directory where you want to clone the project.
 
+- Clone the project using by running the following command:
+
+`https://github.com/momotsow/covid-metrics.git`
 
 ### Install
 
-Install this project with:
-```sh
-  cd covid-metrics
-  npm install
-```
+Install this project using the following command:
+
+`npm install`
 
 ### Usage
 
 To run the project, execute the following command:
 
-```sh
-  npm start
-```
-
+`npm start`
 
 ### Run tests
 
 To run tests, run the following command:
 
-```sh
-  npm test
-```
+`npm run test`
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- AUTHORS -->
 
-## 👥 Author :  <a name="authors"></a>
+## 👥 Author <a name="authors"></a>
 
 👤 **Khomotso Mkansi**
 
@@ -152,11 +133,9 @@ To run tests, run the following command:
 
 ## 🔭 Future Features <a name="future-features"></a>
 
-> Describe 1 - 3 features We will add to the project.
-
-
-- [x] i will enhance the code and add some features.⤵️
-
+- **Covid projection shown as a dashboard**
+- **Display of volume of covid cases from different geographical region**
+- **Reveal more feature details**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -174,8 +153,7 @@ Feel free to check the [issues page](../../issues/).
 
 ## ⭐️ Show your support <a name="support"></a>
 
-> If you like this project you can give me a star 😊 just to prove my app that it is useful for everyone and the users can benefit from it 💯.
-
+Give a ⭐️ if you like this project!
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -183,18 +161,14 @@ Feel free to check the [issues page](../../issues/).
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
-
-I would like to thank all the contributors and code reviewers.
+CREDIT: Original design idea by [Nelson Sakwa on Behance](https://www.behance.net/sakwadesignstudio)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
-
 
 <!-- LICENSE -->
 
 ## 📝 License <a name="license"></a>
 
-This project is [MIT](https://choosealicense.com/licenses/mit/) licensed.
-
-_NOTE: we recommend using the [MIT license](https://choosealicense.com/licenses/mit/) - you can set it up quickly by [using templates available on GitHub](https://docs.github.com/en/communities/setting-up-your-project-for-healthy-contributions/adding-a-license-to-a-repository). You can also use [any other license](https://choosealicense.com/licenses/) if you wish._
+This project is [MIT](./LICENSE) licensed.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
