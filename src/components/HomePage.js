@@ -3,7 +3,7 @@ import { Link, useNavigate, useLocation } from 'react-router-dom';
 import { useSelector, useDispatch } from 'react-redux';
 import { generate } from 'randomized-string';
 import { FaSearchLocation } from 'react-icons/fa';
-import fetchData from '../redux/covid/api';
+import fetchData from '../redux/covid/Api';
 import { fetchStats } from '../redux/covid/reducer';
 
 const HomePage = () => {
