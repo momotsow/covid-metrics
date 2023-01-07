@@ -1,7 +1,7 @@
 import React, { useEffect } from 'react';
 import { useParams } from 'react-router-dom';
 import { useSelector, useDispatch } from 'react-redux';
-import fetchData from '../redux/covid/Api';
+import fetchData from '../redux/covid/api';
 import { fetchStats } from '../redux/covid/reducer';
 
 const DetailPage = () => {
